@@ -80,7 +80,7 @@ button {
 .promo-1c__wrapper {
   width: 100%;
   padding-top: 65px;
-  padding-bottom: 43px;
+  padding-bottom: 60px;
   box-sizing: border-box;
 }
 @media (max-width: 690px) {
@@ -337,4 +337,93 @@ button {
     top: 29px;
     right: -24px;
   }
+}
+/*---advantages-1c---*/
+.advantages-1c {
+  width: 100%;
+}
+.advantages-1c__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  padding-top: 94px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+.advantages-1c__wrapper h2 {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: clamp(32px, 5vw, 40px);
+  line-height: 48px;
+  letter-spacing: -0.05rem;
+  color: #161616;
+}
+.advantages-1c__wrapper h2 span {
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/*----------*/
+.acor-container {
+  margin-top: 20px;
+}
+.acor-container .acor-body {
+  width: 100% - 40px;
+  margin: 0 auto;
+  height: 0;
+  color: rgba(0, 0, 0, 0);
+  /* background-color: #bfe2ff; */
+  line-height: 18px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  transition: color 0.5s, padding 0.5s;
+  overflow: hidden;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 10px 16px rgba(0, 0, 0, 0.2); */
+}
+.acor-container .acor-body p {
+  margin: 0 0 10px;
+}
+.acor-container label {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -0.04rem;
+  color: #161616;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  z-index: 100;
+  transition: color 0.35s;
+  border-bottom: 1px solid #39a5ff;
+}
+.acor-container label:hover {
+  color: #fff;
+}
+.acor-container input {
+  display: none;
+}
+.acor-container label:before {
+  content: url(./icons/accord-1.png);
+  float: right;
+}
+/* .acor-container input:checked + label {
+  background-color: #285f8f;
+  color: #fff;
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.4), 0 28px 30px rgba(0, 0, 0, 0.3);
+} */
+.acor-container input:checked + label:before {
+  content: url(./icons/accord-2.png);
+}
+.acor-container input:checked + label + .acor-body {
+  height: auto;
+  margin-top: -5px;
+  color: #000;
+  padding: 20px 30px 10px;
 }
