@@ -159,6 +159,11 @@ button {
   top: 42px;
   right: -32px;
 }
+.promo-1c__1-c {
+  position: absolute;
+  top: 164px;
+  right: -7px;
+}
 .promo-1c__items {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
