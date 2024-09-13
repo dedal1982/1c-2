@@ -57,6 +57,19 @@ button {
     box-sizing: border-box;
   }
 }
+.n-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: clamp(16px, 5vw, 18px);
+  line-height: 18px;
+  color: #ffffff;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+}
 /*---promo-1c---*/
 .promo-1c {
   width: 100%;
@@ -78,7 +91,7 @@ button {
   grid-row: 1 / 2;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
 }
 .promo-1c__text h2 {
   font-family: "Montserrat", sans-serif;
@@ -93,6 +106,19 @@ button {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+.promo-1c__text p {
+  max-width: 580px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: clamp(14px, 5vw, 18px);
+  line-height: 25.2px;
+  letter-spacing: -0.02rem;
+}
+.promo-1c__button {
+  width: 270px;
+  height: 60px;
 }
 .promo-1c__image {
   grid-column: 2 / 3;
