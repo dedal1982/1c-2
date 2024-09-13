@@ -393,6 +393,11 @@ button {
   justify-content: space-between;
   gap: 20px;
 }
+@media (max-width: 690px) {
+  .acor-body-inner {
+    flex-direction: column;
+  }
+}
 .acor-body-item {
   display: flex;
   align-items: flex-start;
@@ -430,11 +435,21 @@ button {
   content: url(./icons/accord-1.png);
   float: right;
 }
+@media (max-width: 768px) {
+  .acor-container label:before {
+    content: url(./icons/accord-1-m.png);
+  }
+}
 .acor-container input:checked + label {
   color: #000;
 }
 .acor-container input:checked + label:before {
   content: url(./icons/accord-2.png);
+}
+@media (max-width: 768px) {
+  .acor-container input:checked + label:before {
+    content: url(./icons/accord-2-m.png);
+  }
 }
 .acor-container input:checked + label + .acor-body {
   height: auto;
