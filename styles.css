@@ -358,13 +358,19 @@ button {
   letter-spacing: -0.05rem;
   color: #161616;
 }
+@media (max-width: 1100px) {
+  .advantages-1c__wrapper h2 {
+    font-size: clamp(32px, 5vw, 34px);
+    line-height: 34px;
+  }
+}
 .advantages-1c__wrapper h2 span {
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
-/*----------*/
+/*-----аккордион-----*/
 .acor-container {
   margin-top: 20px;
 }
@@ -410,6 +416,13 @@ button {
   z-index: 100;
   border-bottom: 1px solid #39a5ff;
 }
+@media (max-width: 1100px) {
+  .acor-container label {
+    font-size: 25px;
+    line-height: 27px;
+    margin-top: 30px;
+  }
+}
 .acor-container input {
   display: none;
 }
@@ -440,6 +453,12 @@ button {
   line-height: 21.6px;
   letter-spacing: -0.02rem;
   color: #161616;
+}
+@media (max-width: 1100px) {
+  .acor-container .acor-body p {
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
 .acor-body-image {
   width: 260px;
