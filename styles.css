@@ -273,6 +273,7 @@ button {
     flex-direction: column;
     gap: 24px;
     order: 2;
+    max-width: 460px;
   }
 }
 .promo-1c__item {
@@ -349,6 +350,12 @@ button {
   padding-bottom: 60px;
   box-sizing: border-box;
 }
+@media (max-width: 690px) {
+  .advantages-1c__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .advantages-1c__wrapper h2 {
   width: 100%;
   font-family: "Montserrat", sans-serif;
@@ -364,6 +371,15 @@ button {
     line-height: 34px;
   }
 }
+@media (max-width: 690px) {
+  .advantages-1c__wrapper h2 {
+    font-size: 31px;
+    line-height: 32px;
+  }
+  .advantages-1c__wrapper h2 br {
+    display: none;
+  }
+}
 .advantages-1c__wrapper h2 span {
   background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
   -webkit-background-clip: text;
@@ -373,6 +389,11 @@ button {
 /*-----аккордион-----*/
 .acor-container {
   margin-top: 20px;
+}
+@media (max-width: 690px) {
+  .acor-container {
+    margin-top: 0;
+  }
 }
 .acor-container .acor-body {
   width: 100%;
@@ -405,6 +426,16 @@ button {
   max-width: 860px;
   width: 100%;
 }
+.acor-body-item img {
+  width: 24px;
+  height: 24px;
+}
+@media (max-width: 768px) {
+  .acor-body-item img {
+    width: 20px;
+    height: 20px;
+  }
+}
 .acor-container label {
   cursor: pointer;
   display: block;
@@ -426,6 +457,13 @@ button {
     font-size: 25px;
     line-height: 27px;
     margin-top: 30px;
+  }
+}
+@media (max-width: 690px) {
+  .acor-container label {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 33px;
   }
 }
 .acor-container input {
@@ -461,6 +499,11 @@ button {
   flex-direction: column;
   gap: 16px;
 }
+@media (max-width: 690px) {
+  .acor-body-list {
+    gap: 24px;
+  }
+}
 .acor-container .acor-body p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -473,6 +516,12 @@ button {
   .acor-container .acor-body p {
     font-size: 16px;
     line-height: 18px;
+  }
+}
+@media (max-width: 690px) {
+  .acor-container .acor-body p {
+    font-size: 14px;
+    line-height: 16.8px;
   }
 }
 .acor-body-image {
