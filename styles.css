@@ -83,6 +83,12 @@ button {
   padding-bottom: 43px;
   box-sizing: border-box;
 }
+@media (max-width: 690px) {
+  .promo-1c__wrapper {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+}
 .promo-1c__inner {
   width: 100%;
   display: flex;
@@ -103,6 +109,7 @@ button {
 @media (max-width: 450px) {
   .promo-1c__inner {
     align-items: flex-start;
+    gap: 18px;
   }
 }
 .promo-1c__inner h2 {
@@ -148,9 +155,14 @@ button {
     line-height: 20px;
   }
 }
-@media (max-width: 690px) {
+@media (max-width: 960px) {
   .promo-1c__inner p {
-    max-width: 30;
+    max-width: 570px;
+  }
+}
+@media (max-width: 450px) {
+  .promo-1c__inner p {
+    max-width: 301px;
     font-size: 14px;
     line-height: 19.6px;
   }
@@ -210,6 +222,9 @@ button {
   .promo-1c__image-2 {
     display: block;
     position: relative;
+    order: 2;
+    top: 18px;
+    left: 0;
   }
 }
 .promo-1c__ali {
@@ -257,6 +272,7 @@ button {
   .promo-1c__items {
     flex-direction: column;
     gap: 24px;
+    order: 2;
   }
 }
 .promo-1c__item {
@@ -272,7 +288,10 @@ button {
 @media (max-width: 767px) {
   .promo-1c__item {
     flex-direction: row;
-    gap: 20px;
+    gap: 25px;
+  }
+  .promo-1c__item p br {
+    display: none;
   }
 }
 .promo-1c__item img {
@@ -286,6 +305,12 @@ button {
   line-height: 15px;
   letter-spacing: -0.02rem;
   color: #000;
+}
+@media (max-width: 690px) {
+  .promo-1c__item p {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
 @media (max-width: 1322px) {
   .promo-1c__1-c {
