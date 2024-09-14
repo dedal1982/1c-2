@@ -1004,11 +1004,15 @@ hr {
   font-size: 15px;
   line-height: 21px;
   letter-spacing: -0.02rem;
-  max-width: 473px;
+  max-width: 520px;
   width: 100%;
   color: #ffffff;
 }
-
+@media (max-width: 1050px) {
+  .n-support__item p {
+    max-width: 80%;
+  }
+}
 .n-support__button {
   width: 270px;
   height: 60px;
@@ -1086,11 +1090,8 @@ hr {
   .n-support__wrapper-two {
     gap: 16px;
   }
-  .button-m-h {
-    display: none;
-  }
-  .button-m-v {
-    display: flex;
+  .n-support__button span {
+    font-size: 16px;
   }
 }
 /*---адартив---*/
@@ -1208,7 +1209,7 @@ hr {
   .n-support__item {
     gap: 10px;
   }
-  .n-support__item p {
+  .n-support__item ul li {
     max-width: 80%;
   }
 }
@@ -1277,27 +1278,30 @@ hr {
     padding-top: 57px;
     gap: 20px;
   }
+  .n-support__wrapper h2 {
+    text-align: left;
+  }
   .n-support__item p {
     max-width: 100%;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
-    letter-spacing: -0.01rem;
-    text-align: center;
+    line-height: 19px;
   }
   .n-support__icon img {
-    width: 80px;
-    height: 47px;
+    width: 54px;
+    height: 31px;
   }
   .n-support__icon {
-    width: 37%;
+    width: 28%;
     gap: 14px;
+    margin-top: auto;
   }
   .n-support__item {
     justify-content: inherit;
-    gap: 19px;
+    gap: 50px 19px;
   }
   .n-support__button {
-    width: 57%;
+    width: 222px;
     height: 47px;
     font-weight: 500;
     font-size: 16px;
