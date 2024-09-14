@@ -583,6 +583,11 @@ button {
   content: url(./icons/versatility-icon.png);
   left: -22px;
 }
+@media (max-width: 1200px) {
+  .versatility__list li {
+    font-size: 15px;
+  }
+}
 .versatility__a {
   min-height: 57px;
 }
