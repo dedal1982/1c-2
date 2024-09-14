@@ -760,3 +760,18 @@ tr td:first-child {
   background: url(./icons/table-check.png) no-repeat center;
   background-size: contain;
 }
+.decisions-1с-price td {
+  border-top: 1px solid #39a5ff;
+  border-bottom: 1px solid #39a5ff;
+}
+.decisions-1с-price td {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: clamp(15px, 5vw, 18px);
+  line-height: 20px;
+  letter-spacing: -0.03rem;
+  color: #161616;
+}
+.decisions-1с-price td:first-child {
+  font-weight: 600;
+}
