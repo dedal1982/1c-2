@@ -775,3 +775,49 @@ tr td:first-child {
 .decisions-1с-price td:first-child {
   font-weight: 600;
 }
+.decisions-1с-white {
+  background: #fff !important;
+}
+.decisions-1с-btn {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16.8px;
+  letter-spacing: -0.02rem;
+  color: #ffffff;
+}
+.decisions-1с-price-last td:nth-of-type(5) {
+  border-right: 1px solid #39a5ff;
+  position: relative;
+}
+.decisions-1с-price-last td:not(:nth-of-type(2)) {
+  border-left: transparent !important;
+}
+.price-last {
+  position: absolute;
+  width: 726px;
+  right: -3px;
+  top: 20px;
+}
+@media (max-width: 1080px) {
+  .price-last {
+    width: 680px;
+  }
+}
+table {
+  width: 1200px;
+  border-collapse: collapse;
+}
+@media (max-width: 1354px) {
+  .decisions-1с__inner {
+    overflow: auto;
+  }
+}
