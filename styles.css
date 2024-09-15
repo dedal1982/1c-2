@@ -1576,12 +1576,7 @@ hr {
     column-gap: 20px;
   }
 }
-/* @media (max-width: 1200px) {
-  .stories-1c__inner {
-    width: 1160px;
-    overflow: auto;
-  }
-} */
+
 .stories-1c__item {
   background: #ffffff;
   border: 2px solid #f8f9fb;
@@ -1717,4 +1712,54 @@ hr {
   width: 246.33px;
   height: 93.1px;
   margin-top: 65px;
+}
+/********/
+@media (max-width: 1130px) {
+  .stories-1c__item_hidden {
+    display: none;
+  }
+}
+.stories-1c__swiper {
+  max-width: 1050px;
+}
+@media (max-width: 1130px) {
+  .stories-1c__item {
+    width: 350px;
+    padding: 24px 11px 24px 24px;
+  }
+  .stories-1c__item-title h5 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .stories-1c__item-top {
+    gap: 20px;
+  }
+  .stories-1c__text h5 {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 9px;
+  }
+  .stories-1c__task p {
+    font-size: 14px;
+    line-height: 16.8px;
+  }
+  .stories-1c__text {
+    margin-top: 20px;
+  }
+  .stories-1c__task {
+    gap: 10px;
+  }
+  .stories-1c__desc p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .stories-1c__problem h5 {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .stories-1c__problem-button {
+    height: 47px;
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
