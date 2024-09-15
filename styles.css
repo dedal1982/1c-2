@@ -1531,8 +1531,22 @@ hr {
   flex-direction: column;
   gap: 70px;
 }
+@media (max-width: 690px) {
+  .stories-1c__wrapper {
+    padding-top: 54px;
+    padding-bottom: 60px;
+    gap: 33px;
+  }
+}
 .stories-1c__top {
   display: flex;
+}
+@media (max-width: 767px) {
+  .stories-1c__top {
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+  }
 }
 .stories-1c__top h2 {
   font-family: "Montserrat", sans-serif;
@@ -1560,9 +1574,6 @@ hr {
   .stories-1c__top h2 {
     font-size: 32px;
     line-height: 32px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
   }
 }
 .stories-1c__inner {
