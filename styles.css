@@ -1436,6 +1436,21 @@ hr {
   column-gap: 40px;
   margin-top: 52px;
 }
+@media (max-width: 768px) {
+  .opportunities-1c__integ {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+@media (max-width: 690px) {
+  .opportunities-1c__integ {
+    margin-top: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    gap: 16px;
+  }
+}
 .opportunities-1c__integ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -1450,6 +1465,13 @@ hr {
     line-height: 28px;
   }
 }
+@media (max-width: 690px) {
+  .opportunities-1c__integ h3 {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.03rem;
+  }
+}
 .opportunities-1c__integ-list {
   display: flex;
   flex-direction: column;
@@ -1460,9 +1482,20 @@ hr {
   display: flex;
   gap: 8px;
 }
+@media (max-width: 690px) {
+  .opportunities-1c__integ-list li {
+    gap: 12px;
+  }
+}
 .opportunities-1c__integ-list li img {
   width: 24px;
   height: 24px;
+}
+@media (max-width: 690px) {
+  .opportunities-1c__integ-list li img {
+    width: 20px;
+    height: 20px;
+  }
 }
 .opportunities-1c__integ p {
   font-family: "Montserrat", sans-serif;
@@ -1476,5 +1509,11 @@ hr {
   .opportunities-1c__integ p {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+@media (max-width: 690px) {
+  .opportunities-1c__integ p {
+    font-size: 14px;
+    line-height: 16.8px;
   }
 }
