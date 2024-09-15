@@ -1336,9 +1336,39 @@ hr {
   background-clip: text;
   color: transparent;
 }
-.opportunities-1c__management {
+.opportunities-1c__grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(auto, 1fr));
   column-gap: 40px;
-  row-gap: 24px;
+  row-gap: 17px;
+  margin-top: 70px;
+}
+.opportunities-1c__grid-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  background: #f8f9fb;
+  border-radius: 10px;
+  padding: 32px;
+  box-sizing: border-box;
+}
+.opportunities-1c__grid-item h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.03rem;
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.opportunities-1c__grid-item p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  letter-spacing: -0.02rem;
+  color: #161616cc;
 }
