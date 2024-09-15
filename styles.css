@@ -1576,7 +1576,7 @@ hr {
   border: 2px solid #f8f9fb;
   display: flex;
   flex-direction: column;
-  padding: 40px 22px 40px 24px;
+  padding: 40px 17px 40px 24px;
   box-sizing: border-box;
 }
 .stories-1c__item-top {
@@ -1601,13 +1601,16 @@ hr {
   letter-spacing: -0.04rem;
   color: #161616;
 }
-.stories-1c__item-title span {
+.stories-1c__item-title {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 18px;
-  letter-spacing: -0.05rem;
+  letter-spacing: -0.02rem;
   color: #161616;
+}
+.stories-1c__item-title span {
+  white-space: nowrap;
 }
 .stories-1c__item-line {
   max-width: 293px;
@@ -1663,6 +1666,7 @@ hr {
   max-width: 247px;
   width: 100%;
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 10px;
   margin: 28px auto 0;
@@ -1681,4 +1685,13 @@ hr {
 .stories-1c__problem-button {
   width: 100%;
   height: 53px;
+}
+.stories-1c__small-point {
+  width: 127.27px;
+  height: 48.1px;
+}
+.stories-1c__point {
+  width: 246.33px;
+  height: 93.1px;
+  margin-top: 65px;
 }
