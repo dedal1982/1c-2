@@ -1,6 +1,6 @@
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".slider-1c__swiper", {
   // Optional parameters
-  direction: "vertical",
+  direction: "horizontal",
   loop: true,
 
   // If we need pagination
