@@ -1782,6 +1782,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 71px;
 }
 .our-team-1c__wrapper h2 {
   font-family: "Montserrat", sans-serif;
@@ -1815,4 +1816,59 @@ hr {
 .our-team-1c__inner {
   display: flex;
   gap: 42px;
+}
+.our-team-1c__item {
+  width: 373px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.our-team-1c__image {
+  width: 373px;
+  height: 373px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 0px #0000001a;
+}
+.our-team-1c__info {
+  display: flex;
+  flex-direction: column;
+}
+.our-team-1c__info h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.03rem;
+  color: #161616;
+}
+.our-team-1c__info p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  letter-spacing: -0.02rem;
+  color: #161616;
+  margin-top: 9px;
+}
+.our-team-1c__info-item {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-top: 12px;
+}
+.team-1c-phone {
+  width: 18px;
+  height: 18px;
+}
+.team-1c-mail {
+  width: 20px;
+  height: 16px;
+}
+.our-team-1c__info-item a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.2px;
+  letter-spacing: -0.02rem;
+  color: #161616;
 }
