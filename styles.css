@@ -1576,7 +1576,7 @@ hr {
   border: 2px solid #f8f9fb;
   display: flex;
   flex-direction: column;
-  padding: 40px 17px 40px 24px;
+  padding: 40px 17px 20px 24px;
   box-sizing: border-box;
 }
 .stories-1c__item-top {
