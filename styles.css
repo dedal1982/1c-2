@@ -375,6 +375,7 @@ button {
   .advantages-1c__wrapper h2 {
     font-size: 31px;
     line-height: 32px;
+    letter-spacing: -0.04rem;
   }
   .advantages-1c__wrapper h2 br {
     display: none;
@@ -620,6 +621,8 @@ button {
   position: absolute;
   content: url(./icons/versatility-icon.png);
   left: -22px;
+  z-index: 5;
+  background: #f8f9fb;
 }
 @media (max-width: 1200px) {
   .versatility__list li {
@@ -664,6 +667,7 @@ button {
   bottom: 50px;
   left: -18px;
 }
+
 /*---decisions-1с---*/
 .decisions-1с {
   width: 100%;
