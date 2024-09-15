@@ -1771,3 +1771,48 @@ hr {
     line-height: 18px;
   }
 }
+/*---our-team-1c---*/
+.our-team-1c {
+  width: 100%;
+}
+.our-team-1c__wrapper {
+  padding-top: 91px;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-team-1c__wrapper h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: clamp(32px, 5vw, 40px);
+  line-height: 46px;
+  letter-spacing: -0.05rem;
+  color: #161616;
+  max-width: 704px;
+  width: 100%;
+  text-align: center;
+}
+.our-team-1c__wrapper h2 span {
+  background: linear-gradient(90deg, #545aff 0%, #38a7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@media (max-width: 1100px) {
+  .our-team-1c__wrapper h2 {
+    font-size: clamp(32px, 5vw, 34px);
+    line-height: 34px;
+  }
+}
+@media (max-width: 690px) {
+  .our-team-1c__wrapper h2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+.our-team-1c__inner {
+  display: flex;
+  gap: 42px;
+}
