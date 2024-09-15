@@ -649,25 +649,59 @@ button {
   top: 17px;
   left: -18px;
 }
+.versatility__a-2:after {
+  position: absolute;
+  content: url(./icons/versatility-line.png);
+  top: 17px;
+  left: -18px;
+}
 .versatility__b::after {
   position: absolute;
   content: url(./icons/versatility-line-last.png);
   bottom: 30px;
   left: -18px;
 }
-.versatility__c::after {
+.versatility__b-2::after {
   position: absolute;
   content: url(./icons/versatility-line-last.png);
-  bottom: 49px;
-  left: -18px;
-}
-.versatility__d:after {
-  position: absolute;
-  content: url(./icons/versatility-line.png);
   bottom: 50px;
   left: -18px;
 }
-
+.versatility__c::after {
+  position: absolute;
+  content: url(./icons/versatility-line.png);
+  bottom: 48px;
+  left: -18px;
+}
+@media (max-width: 1080px) {
+  .versatility__b-2::after {
+    bottom: 58px;
+  }
+}
+@media (max-width: 1024px) {
+  .versatility__b-2::after {
+    bottom: 78px;
+  }
+  .versatility__a:after {
+    content: url(./icons/versatility-line-last.png);
+  }
+  .versatility__c::after {
+    bottom: 61px;
+  }
+}
+@media (max-width: 850px) {
+  .versatility__b-2::after {
+    bottom: 53px;
+  }
+  .versatility__c::after {
+    bottom: 48px;
+  }
+}
+@media (max-width: 690px) {
+  .versatility__b-2::after {
+    bottom: 48px;
+  }
+}
 /*---decisions-1с---*/
 .decisions-1с {
   width: 100%;
