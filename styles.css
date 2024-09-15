@@ -1609,3 +1609,22 @@ hr {
   letter-spacing: -0.05rem;
   color: #161616;
 }
+.stories-1c__item-line {
+  max-width: 293px;
+  width: 100%;
+  border: 2px solid #f8f9fb;
+  margin-top: 20px;
+}
+.stories-1c__item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 14px;
+}
+.stories-1c__item-text h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #161616;
+}
