@@ -1576,7 +1576,7 @@ hr {
   border: 2px solid #f8f9fb;
   display: flex;
   flex-direction: column;
-  padding: 40px 24px;
+  padding: 40px 22px 40px 24px;
   box-sizing: border-box;
 }
 .stories-1c__item-top {
@@ -1615,16 +1615,47 @@ hr {
   border: 2px solid #f8f9fb;
   margin-top: 20px;
 }
-.stories-1c__item-text {
+.stories-1c__text {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   margin-top: 14px;
 }
-.stories-1c__item-text h5 {
+.stories-1c__text h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: -0.02rem;
+  color: #161616;
+}
+.stories-1c__task {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.stories-1c__task p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   font-size: 15px;
   line-height: 18px;
+  letter-spacing: -0.02rem;
+  color: #161616;
+}
+.stories-1c__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 40px;
+}
+.stories-1c__desc img {
+  width: 23px;
+  height: 12px;
+}
+.stories-1c__desc p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.02rem;
   color: #161616;
 }
