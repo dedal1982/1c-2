@@ -1576,7 +1576,12 @@ hr {
     column-gap: 20px;
   }
 }
-
+@media (max-width: 1130px) {
+  .stories-1c__inner {
+    gap: 10px;
+    overflow: auto;
+  }
+}
 .stories-1c__item {
   background: #ffffff;
   border: 2px solid #f8f9fb;
@@ -1713,15 +1718,7 @@ hr {
   height: 93.1px;
   margin-top: 65px;
 }
-/********/
-@media (max-width: 1130px) {
-  .stories-1c__item_hidden {
-    display: none;
-  }
-}
-.stories-1c__swiper {
-  max-width: 1050px;
-}
+
 @media (max-width: 1130px) {
   .stories-1c__item {
     width: 350px;
